@@ -2,6 +2,8 @@
 
 A simple, customizable, and animated radio button component for React Native.
 
+![Alt text](https://github.com/Dhia-Ben-Hamouda/rn-awesome-radio-button/blob/main/src/assets/preview.gif)
+
 ## ✨ Features
 
 - Smooth animation using Reanimated
@@ -32,23 +34,25 @@ import { View } from "react-native";
 import RadioButton from "rn-awesome-radio-button";
 
 export default function App() {
-  const [selected, setSelected] = useState("option1");
+  const [value, setValue] = useState("male");
 
   return (
     <View style={{ padding: 20 }}>
       <RadioButton
-        label="Option 1"
-        value="option1"
-        activeValue={selected}
-        onChange={setSelected}
+        label="Male"
+        value="male"
+        activeValue={value}
+        onChange={() => {
+          setValue("male");
+        }}
       />
       <RadioButton
-        label="Option 2"
-        value="option2"
-        activeValue={selected}
-        onChange={setSelected}
-        color="blue"
-        customDotSize={12}
+        label="Female"
+        value="female"
+        activeValue={value}
+        onChange={() => {
+          setValue("female");
+        }}
       />
     </View>
   );
