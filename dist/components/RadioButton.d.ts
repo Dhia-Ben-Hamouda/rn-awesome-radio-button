@@ -1,6 +1,6 @@
 import { StyleProp, TextStyle, ViewStyle } from "react-native";
 interface IRadioButton {
-    label: string;
+    label?: string;
     value: string;
     activeValue: string;
     onChange: (newValue: string) => void;

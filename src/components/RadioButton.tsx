@@ -16,7 +16,7 @@ import Animated, {
 } from "react-native-reanimated";
 
 interface IRadioButton {
-  label: string;
+  label?: string;
   value: string;
   activeValue: string;
   onChange: (newValue: string) => void;

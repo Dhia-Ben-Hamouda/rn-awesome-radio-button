@@ -1,6 +1,6 @@
 {
   "name": "rn-awesome-radio-button",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A customizable radio button component for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

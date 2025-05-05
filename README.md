@@ -63,17 +63,17 @@ export default function App() {
 
 ## 🔧 Props
 
-| Prop                  | Type                         | Default     | Description                                     |
-| --------------------- | ---------------------------- | ----------- | ----------------------------------------------- |
-| `label`               | `string`                     | `undefined` | The label to display next to the radio button.  |
-| `value`               | `string`                     | `undefined` | The value of this radio button.                 |
-| `activeValue`         | `string`                     | `undefined` | The currently selected radio value.             |
-| `onChange`            | `(newValue: string) => void` | `undefined` | Callback when the radio button is selected.     |
-| `labelStyle`          | `StyleProp<TextStyle>`       | `undefined` | Custom style for the label text.                |
-| `radioContainerStyle` | `StyleProp<ViewStyle>`       | `undefined` | Custom style for the outer radio circle.        |
-| `containerStyle`      | `StyleProp<ViewStyle>`       | `undefined` | Style for the wrapper container.                |
-| `color`               | `string`                     | `#555`      | Color for the border and the filled dot.        |
-| `customDotSize`       | `number`                     | `10`        | Diameter of the animated inner dot when active. |
+| Prop                  | Type                         | Default      | Description                                     |
+| --------------------- | ---------------------------- | ------------ | ----------------------------------------------- |
+| `label`               | `string`                     | `undefined`  | The label to display next to the radio button.  |
+| `value`               | `string`                     | **required** | The value of this radio button.                 |
+| `activeValue`         | `string`                     | **required** | The currently selected radio value.             |
+| `onChange`            | `(newValue: string) => void` | **required** | Callback when the radio button is selected.     |
+| `labelStyle`          | `StyleProp<TextStyle>`       | `undefined`  | Custom style for the label text.                |
+| `radioContainerStyle` | `StyleProp<ViewStyle>`       | `undefined`  | Custom style for the outer radio circle.        |
+| `containerStyle`      | `StyleProp<ViewStyle>`       | `undefined`  | Style for the wrapper container.                |
+| `color`               | `string`                     | `#555`       | Color for the border and the filled dot.        |
+| `customDotSize`       | `number`                     | `10`         | Diameter of the animated inner dot when active. |
 
 ---
 
