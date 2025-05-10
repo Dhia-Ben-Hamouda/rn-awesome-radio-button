@@ -10,5 +10,5 @@ interface IRadioButton {
     color?: string;
     customDotSize?: number;
 }
-export default function RadioButton({ label, onChange, value, activeValue, labelStyle, color, containerStyle, radioContainerStyle, customDotSize, }: IRadioButton): JSX.Element;
+export default function RadioButton({ label, onChange, value, activeValue, labelStyle, color, containerStyle, radioContainerStyle, customDotSize, }: IRadioButton): import("react").JSX.Element;
 export {};
